@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0999FFE4D1F60CB59A4D5C9E /* Pods_instagramDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F409825CE0C0A3D5E0B51E1 /* Pods_instagramDylib.framework */; };
+		2151BF172433722A00E709CC /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2151BF162433722A00E709CC /* MDConfig.plist */; };
+		2151BF212433722A00E709CC /* libinstagramDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2151BF202433722A00E709CC /* libinstagramDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2151BF262433722A00E709CC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2151BF252433722A00E709CC /* JavaScriptCore.framework */; };
+		2151BF282433722A00E709CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2151BF272433722A00E709CC /* Foundation.framework */; };
+		2151BF2A2433722A00E709CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2151BF292433722A00E709CC /* UIKit.framework */; };
+		2151BF2F2433722A00E709CC /* instagramDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF2E2433722A00E709CC /* instagramDylib.mm */; };
+		2151BF322433722A00E709CC /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF312433722A00E709CC /* MDConfigManager.h */; };
+		2151BF342433722A00E709CC /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF332433722A00E709CC /* MDConfigManager.m */; };
+		2151BF362433722A00E709CC /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF352433722A00E709CC /* MDCycriptManager.h */; };
+		2151BF382433722A00E709CC /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF372433722A00E709CC /* MDCycriptManager.m */; };
+		2151BF3A2433722A00E709CC /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF392433722A00E709CC /* MDMethodTrace.h */; };
+		2151BF3C2433722A00E709CC /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF3B2433722A00E709CC /* MDMethodTrace.m */; };
+		2151BF3F2433722A00E709CC /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF3E2433722A00E709CC /* a1a2-selectortramps-arm.s */; };
+		2151BF412433722A00E709CC /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF402433722A00E709CC /* a1a2-selectortramps-arm64.s */; };
+		2151BF432433722A00E709CC /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF422433722A00E709CC /* a1a2-selectortramps-i386.s */; };
+		2151BF452433722A00E709CC /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF442433722A00E709CC /* a1a2-selectortramps-x86_64.s */; };
+		2151BF472433722A00E709CC /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF462433722A00E709CC /* a2a3-selectortramps-arm.s */; };
+		2151BF492433722A00E709CC /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF482433722A00E709CC /* a2a3-selectortramps-i386.s */; };
+		2151BF4B2433722A00E709CC /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF4A2433722A00E709CC /* a2a3-selectortramps-x86_64.s */; };
+		2151BF4D2433722A00E709CC /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF4C2433722A00E709CC /* OCMethodTrace.h */; };
+		2151BF4F2433722A00E709CC /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF4E2433722A00E709CC /* OCMethodTrace.m */; };
+		2151BF512433722A00E709CC /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF502433722A00E709CC /* OCSelectorTrampolines.h */; };
+		2151BF532433722A00E709CC /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF522433722A00E709CC /* OCSelectorTrampolines.mm */; };
+		2151BF572433722A00E709CC /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF562433722A00E709CC /* LLDBTools.h */; };
+		2151BF592433722A00E709CC /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF582433722A00E709CC /* LLDBTools.mm */; };
+		2151BF5E2433722A00E709CC /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF5D2433722A00E709CC /* AntiAntiDebug.m */; };
+		2151BF612433722A00E709CC /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF602433722A00E709CC /* fishhook.c */; };
+		2151BF632433722A00E709CC /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF622433722A00E709CC /* fishhook.h */; };
+		2151BF652433722A00E709CC /* instagramDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF642433722A00E709CC /* instagramDylib.h */; };
+		2151BF672433722A00E709CC /* instagramDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF662433722A00E709CC /* instagramDylib.m */; };
+		2151BF7324337E7E00E709CC /* IGUFIButtonBarViewHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */; };
+		63D0A83FEA455135D83E1838 /* Pods_instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9819892571157ABF68DBED10 /* Pods_instagram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2151BF222433722A00E709CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2151BF042433722A00E709CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2151BF1F2433722A00E709CC;
+			remoteInfo = instagramDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2151BF0C2433722A00E709CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2151BF212433722A00E709CC /* libinstagramDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		190C480DA4B140C6096FDF29 /* Pods-instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram.release.xcconfig"; path = "Target Support Files/Pods-instagram/Pods-instagram.release.xcconfig"; sourceTree = "<group>"; };
+		2151BF0F2433722A00E709CC /* instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2151BF122433722A00E709CC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2151BF142433722A00E709CC /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-resign.sh"; sourceTree = "<group>"; };
+		2151BF162433722A00E709CC /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MDConfig.plist; sourceTree = "<group>"; };
+		2151BF192433722A00E709CC /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; path = "put ipa or app here"; sourceTree = "<group>"; };
+		2151BF1A2433722A00E709CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2151BF202433722A00E709CC /* libinstagramDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libinstagramDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2151BF252433722A00E709CC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2151BF272433722A00E709CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2151BF292433722A00E709CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2151BF2D2433722A00E709CC /* instagramDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = instagramDylib.xm; sourceTree = "<group>"; };
+		2151BF2E2433722A00E709CC /* instagramDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = instagramDylib.mm; sourceTree = "<group>"; };
+		2151BF312433722A00E709CC /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
+		2151BF332433722A00E709CC /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
+		2151BF352433722A00E709CC /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCycriptManager.h; sourceTree = "<group>"; };
+		2151BF372433722A00E709CC /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCycriptManager.m; sourceTree = "<group>"; };
+		2151BF392433722A00E709CC /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMethodTrace.h; sourceTree = "<group>"; };
+		2151BF3B2433722A00E709CC /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMethodTrace.m; sourceTree = "<group>"; };
+		2151BF3E2433722A00E709CC /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		2151BF402433722A00E709CC /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		2151BF422433722A00E709CC /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		2151BF442433722A00E709CC /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		2151BF462433722A00E709CC /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		2151BF482433722A00E709CC /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		2151BF4A2433722A00E709CC /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		2151BF4C2433722A00E709CC /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMethodTrace.h; sourceTree = "<group>"; };
+		2151BF4E2433722A00E709CC /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMethodTrace.m; sourceTree = "<group>"; };
+		2151BF502433722A00E709CC /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		2151BF522433722A00E709CC /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		2151BF542433722A00E709CC /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = selectortramps.mac; sourceTree = "<group>"; };
+		2151BF562433722A00E709CC /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDBTools.h; sourceTree = "<group>"; };
+		2151BF582433722A00E709CC /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LLDBTools.mm; sourceTree = "<group>"; };
+		2151BF5B2433722A00E709CC /* instagramDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "instagramDylib-Prefix.pch"; path = "../instagramDylib-Prefix.pch"; sourceTree = "<group>"; };
+		2151BF5D2433722A00E709CC /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiAntiDebug.m; sourceTree = "<group>"; };
+		2151BF602433722A00E709CC /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		2151BF622433722A00E709CC /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		2151BF642433722A00E709CC /* instagramDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = instagramDylib.h; sourceTree = "<group>"; };
+		2151BF662433722A00E709CC /* instagramDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagramDylib.m; sourceTree = "<group>"; };
+		2151BF70243373E500E709CC /* instagram.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = instagram.ipa; sourceTree = SOURCE_ROOT; };
+		2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGUFIButtonBarViewHook.m; sourceTree = "<group>"; };
+		2151BF7824338EB800E709CC /* InstagramHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramHeader.h; sourceTree = "<group>"; };
+		2B2150AAA6B15B2E34CFB714 /* Pods-instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram.debug.xcconfig"; path = "Target Support Files/Pods-instagram/Pods-instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		7F409825CE0C0A3D5E0B51E1 /* Pods_instagramDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933036034FE4094983C8425B /* Pods-instagramDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramDylib.debug.xcconfig"; path = "Target Support Files/Pods-instagramDylib/Pods-instagramDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		9819892571157ABF68DBED10 /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC6B1C2E0C69BF2866246AF /* Pods-instagramDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramDylib.release.xcconfig"; path = "Target Support Files/Pods-instagramDylib/Pods-instagramDylib.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2151BF092433722A00E709CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D0A83FEA455135D83E1838 /* Pods_instagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2151BF1D2433722A00E709CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2151BF262433722A00E709CC /* JavaScriptCore.framework in Frameworks */,
+				2151BF2A2433722A00E709CC /* UIKit.framework in Frameworks */,
+				2151BF282433722A00E709CC /* Foundation.framework in Frameworks */,
+				0999FFE4D1F60CB59A4D5C9E /* Pods_instagramDylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2151BF032433722A00E709CC = {
+			isa = PBXGroup;
+			children = (
+				2151BF112433722A00E709CC /* instagram */,
+				2151BF2B2433722A00E709CC /* instagramDylib */,
+				2151BF242433722A00E709CC /* Frameworks */,
+				2151BF102433722A00E709CC /* Products */,
+				B1AE1FFFAE7477EC4A4774E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2151BF102433722A00E709CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF0F2433722A00E709CC /* instagram.app */,
+				2151BF202433722A00E709CC /* libinstagramDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2151BF112433722A00E709CC /* instagram */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF122433722A00E709CC /* icon.png */,
+				2151BF1A2433722A00E709CC /* Info.plist */,
+				2151BF132433722A00E709CC /* Scripts */,
+				2151BF152433722A00E709CC /* Config */,
+				2151BF182433722A00E709CC /* TargetApp */,
+			);
+			path = instagram;
+			sourceTree = "<group>";
+		};
+		2151BF132433722A00E709CC /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF142433722A00E709CC /* quick-resign.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		2151BF152433722A00E709CC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF162433722A00E709CC /* MDConfig.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2151BF182433722A00E709CC /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF70243373E500E709CC /* instagram.ipa */,
+				2151BF192433722A00E709CC /* put ipa or app here */,
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
+		2151BF242433722A00E709CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF252433722A00E709CC /* JavaScriptCore.framework */,
+				2151BF272433722A00E709CC /* Foundation.framework */,
+				2151BF292433722A00E709CC /* UIKit.framework */,
+				9819892571157ABF68DBED10 /* Pods_instagram.framework */,
+				7F409825CE0C0A3D5E0B51E1 /* Pods_instagramDylib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2151BF2B2433722A00E709CC /* instagramDylib */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF642433722A00E709CC /* instagramDylib.h */,
+				2151BF662433722A00E709CC /* instagramDylib.m */,
+				2151BF5C2433722A00E709CC /* AntiAntiDebug */,
+				2151BF302433722A00E709CC /* Config */,
+				2151BF5F2433722A00E709CC /* fishhook */,
+				2151BF7124337E6B00E709CC /* Hook */,
+				2151BF2C2433722A00E709CC /* Logos */,
+				2151BF5A2433722A00E709CC /* Supporting Files */,
+				2151BF552433722A00E709CC /* Tools */,
+				2151BF3D2433722A00E709CC /* Trace */,
+			);
+			path = instagramDylib;
+			sourceTree = "<group>";
+		};
+		2151BF2C2433722A00E709CC /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF2D2433722A00E709CC /* instagramDylib.xm */,
+				2151BF2E2433722A00E709CC /* instagramDylib.mm */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		2151BF302433722A00E709CC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF312433722A00E709CC /* MDConfigManager.h */,
+				2151BF332433722A00E709CC /* MDConfigManager.m */,
+				2151BF352433722A00E709CC /* MDCycriptManager.h */,
+				2151BF372433722A00E709CC /* MDCycriptManager.m */,
+				2151BF392433722A00E709CC /* MDMethodTrace.h */,
+				2151BF3B2433722A00E709CC /* MDMethodTrace.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2151BF3D2433722A00E709CC /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF3E2433722A00E709CC /* a1a2-selectortramps-arm.s */,
+				2151BF402433722A00E709CC /* a1a2-selectortramps-arm64.s */,
+				2151BF422433722A00E709CC /* a1a2-selectortramps-i386.s */,
+				2151BF442433722A00E709CC /* a1a2-selectortramps-x86_64.s */,
+				2151BF462433722A00E709CC /* a2a3-selectortramps-arm.s */,
+				2151BF482433722A00E709CC /* a2a3-selectortramps-i386.s */,
+				2151BF4A2433722A00E709CC /* a2a3-selectortramps-x86_64.s */,
+				2151BF4C2433722A00E709CC /* OCMethodTrace.h */,
+				2151BF4E2433722A00E709CC /* OCMethodTrace.m */,
+				2151BF502433722A00E709CC /* OCSelectorTrampolines.h */,
+				2151BF522433722A00E709CC /* OCSelectorTrampolines.mm */,
+				2151BF542433722A00E709CC /* selectortramps.mac */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		2151BF552433722A00E709CC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF562433722A00E709CC /* LLDBTools.h */,
+				2151BF582433722A00E709CC /* LLDBTools.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2151BF5A2433722A00E709CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF5B2433722A00E709CC /* instagramDylib-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2151BF5C2433722A00E709CC /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF5D2433722A00E709CC /* AntiAntiDebug.m */,
+			);
+			path = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		2151BF5F2433722A00E709CC /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF602433722A00E709CC /* fishhook.c */,
+				2151BF622433722A00E709CC /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		2151BF7124337E6B00E709CC /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				2151BF7824338EB800E709CC /* InstagramHeader.h */,
+				2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		B1AE1FFFAE7477EC4A4774E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B2150AAA6B15B2E34CFB714 /* Pods-instagram.debug.xcconfig */,
+				190C480DA4B140C6096FDF29 /* Pods-instagram.release.xcconfig */,
+				933036034FE4094983C8425B /* Pods-instagramDylib.debug.xcconfig */,
+				DCC6B1C2E0C69BF2866246AF /* Pods-instagramDylib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2151BF1E2433722A00E709CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2151BF652433722A00E709CC /* instagramDylib.h in Headers */,
+				2151BF362433722A00E709CC /* MDCycriptManager.h in Headers */,
+				2151BF3A2433722A00E709CC /* MDMethodTrace.h in Headers */,
+				2151BF632433722A00E709CC /* fishhook.h in Headers */,
+				2151BF572433722A00E709CC /* LLDBTools.h in Headers */,
+				2151BF322433722A00E709CC /* MDConfigManager.h in Headers */,
+				2151BF512433722A00E709CC /* OCSelectorTrampolines.h in Headers */,
+				2151BF4D2433722A00E709CC /* OCMethodTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2151BF0E2433722A00E709CC /* instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2151BF6D2433722A00E709CC /* Build configuration list for PBXNativeTarget "instagram" */;
+			buildPhases = (
+				D1EA731621345AE29040EA62 /* [CP] Check Pods Manifest.lock */,
+				2151BF082433722A00E709CC /* Sources */,
+				2151BF092433722A00E709CC /* Frameworks */,
+				2151BF0A2433722A00E709CC /* ShellScript */,
+				2151BF0B2433722A00E709CC /* Resources */,
+				2151BF0C2433722A00E709CC /* CopyFiles */,
+				2151BF0D2433722A00E709CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2151BF232433722A00E709CC /* PBXTargetDependency */,
+			);
+			name = instagram;
+			productName = instagram;
+			productReference = 2151BF0F2433722A00E709CC /* instagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2151BF1F2433722A00E709CC /* instagramDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2151BF6A2433722A00E709CC /* Build configuration list for PBXNativeTarget "instagramDylib" */;
+			buildPhases = (
+				6967443BF8FECC316C8C5068 /* [CP] Check Pods Manifest.lock */,
+				2151BF1B2433722A00E709CC /* ShellScript */,
+				2151BF1C2433722A00E709CC /* Sources */,
+				2151BF1D2433722A00E709CC /* Frameworks */,
+				2151BF1E2433722A00E709CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instagramDylib;
+			productName = instagramDylib;
+			productReference = 2151BF202433722A00E709CC /* libinstagramDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2151BF042433722A00E709CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Archie;
+				TargetAttributes = {
+					2151BF0E2433722A00E709CC = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					2151BF1F2433722A00E709CC = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 2151BF072433722A00E709CC /* Build configuration list for PBXProject "instagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2151BF032433722A00E709CC;
+			productRefGroup = 2151BF102433722A00E709CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2151BF0E2433722A00E709CC /* instagram */,
+				2151BF1F2433722A00E709CC /* instagramDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2151BF0B2433722A00E709CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2151BF172433722A00E709CC /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2151BF0A2433722A00E709CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		2151BF0D2433722A00E709CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		2151BF1B2433722A00E709CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		6967443BF8FECC316C8C5068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instagramDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1EA731621345AE29040EA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2151BF082433722A00E709CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2151BF1C2433722A00E709CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2151BF382433722A00E709CC /* MDCycriptManager.m in Sources */,
+				2151BF412433722A00E709CC /* a1a2-selectortramps-arm64.s in Sources */,
+				2151BF3F2433722A00E709CC /* a1a2-selectortramps-arm.s in Sources */,
+				2151BF452433722A00E709CC /* a1a2-selectortramps-x86_64.s in Sources */,
+				2151BF4F2433722A00E709CC /* OCMethodTrace.m in Sources */,
+				2151BF342433722A00E709CC /* MDConfigManager.m in Sources */,
+				2151BF7324337E7E00E709CC /* IGUFIButtonBarViewHook.m in Sources */,
+				2151BF612433722A00E709CC /* fishhook.c in Sources */,
+				2151BF5E2433722A00E709CC /* AntiAntiDebug.m in Sources */,
+				2151BF532433722A00E709CC /* OCSelectorTrampolines.mm in Sources */,
+				2151BF432433722A00E709CC /* a1a2-selectortramps-i386.s in Sources */,
+				2151BF492433722A00E709CC /* a2a3-selectortramps-i386.s in Sources */,
+				2151BF472433722A00E709CC /* a2a3-selectortramps-arm.s in Sources */,
+				2151BF2F2433722A00E709CC /* instagramDylib.mm in Sources */,
+				2151BF672433722A00E709CC /* instagramDylib.m in Sources */,
+				2151BF592433722A00E709CC /* LLDBTools.mm in Sources */,
+				2151BF4B2433722A00E709CC /* a2a3-selectortramps-x86_64.s in Sources */,
+				2151BF3C2433722A00E709CC /* MDMethodTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2151BF232433722A00E709CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2151BF1F2433722A00E709CC /* instagramDylib */;
+			targetProxy = 2151BF222433722A00E709CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2151BF682433722A00E709CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2151BF692433722A00E709CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2151BF6B2433722A00E709CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933036034FE4094983C8425B /* Pods-instagramDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8V7RMBKQ7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instagramDylib/instagramDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libinstagramDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"instagramDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		2151BF6C2433722A00E709CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC6B1C2E0C69BF2866246AF /* Pods-instagramDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = Z8V7RMBKQ7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instagramDylib/instagramDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libinstagramDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"instagramDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2151BF6E2433722A00E709CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2150AAA6B15B2E34CFB714 /* Pods-instagram.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8V7RMBKQ7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = instagram/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Instagram;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.Archie.instagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2151BF6F2433722A00E709CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190C480DA4B140C6096FDF29 /* Pods-instagram.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8V7RMBKQ7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = instagram/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Instagram;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.Archie.instagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2151BF072433722A00E709CC /* Build configuration list for PBXProject "instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2151BF682433722A00E709CC /* Debug */,
+				2151BF692433722A00E709CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2151BF6A2433722A00E709CC /* Build configuration list for PBXNativeTarget "instagramDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2151BF6B2433722A00E709CC /* Debug */,
+				2151BF6C2433722A00E709CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2151BF6D2433722A00E709CC /* Build configuration list for PBXNativeTarget "instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2151BF6E2433722A00E709CC /* Debug */,
+				2151BF6F2433722A00E709CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2151BF042433722A00E709CC /* Project object */;
+}

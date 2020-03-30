@@ -1,0 +1,6 @@
+framework module Pods_instagramDylib {
+  umbrella header "Pods-instagramDylib-umbrella.h"
+
+  export *
+  module * { export * }
+}

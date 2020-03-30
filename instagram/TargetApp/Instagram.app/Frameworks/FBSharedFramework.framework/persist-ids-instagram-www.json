@@ -1,0 +1,125 @@
+{
+  "_signature": "// @generated _GENERATED_GRAPHQL_ Created by rebuild-graphql/persist",
+  "data": {
+    "IGFBPayAddressAddMutation": {
+      "OSSPersistId": "2618287871603841",
+      "fragmentNameHash": 2625585797,
+      "legacyPersistId": null,
+      "queryTextHash": "539b3f413998e3fdee63f71f26aba7dd",
+      "usecase": null
+    },
+    "IGFBPayAddressDeleteMutation": {
+      "OSSPersistId": "3054662064598267",
+      "fragmentNameHash": 2082387046,
+      "legacyPersistId": null,
+      "queryTextHash": "9956d4ea0b3debdb8aaf616d277122f1",
+      "usecase": null
+    },
+    "IGFBPayAddressQuery": {
+      "OSSPersistId": "3369385116410171",
+      "fragmentNameHash": 3916978772,
+      "legacyPersistId": null,
+      "queryTextHash": "47eb842a71270ac9bc0214447b0f4289",
+      "usecase": null
+    },
+    "IGFetchLDPTransactionToolSelectorApps": {
+      "OSSPersistId": "2506815206070488",
+      "fragmentNameHash": 2977764961,
+      "legacyPersistId": null,
+      "queryTextHash": "9be419c0a1e60705633c461029a03609",
+      "usecase": null
+    },
+    "IGPaymentsAccountDisabledQuery": {
+      "OSSPersistId": "2796210233799562",
+      "fragmentNameHash": 1338762889,
+      "legacyPersistId": null,
+      "queryTextHash": "0803ce22c1a6a25c416456a93e40912c",
+      "usecase": null
+    },
+    "IGPaymentsCheckoutInformation": {
+      "OSSPersistId": "2096094750494103",
+      "fragmentNameHash": 1036272633,
+      "legacyPersistId": null,
+      "queryTextHash": "33fc16b813b5ea29ab05acd8ec1f3274",
+      "usecase": null
+    },
+    "IGPayoutOnboardingAddressValidationQuery": {
+      "OSSPersistId": "3202352203181360",
+      "fragmentNameHash": 3607165597,
+      "legacyPersistId": null,
+      "queryTextHash": "80829e4df54dffaa7cffd54b7300d32b",
+      "usecase": null
+    },
+    "IGPayoutOnboardingBankValidationQuery": {
+      "OSSPersistId": "2797563760340062",
+      "fragmentNameHash": 445324065,
+      "legacyPersistId": null,
+      "queryTextHash": "d463cef4bf0b623e57336b0d41b5299b",
+      "usecase": null
+    },
+    "IGPayoutOnboardingCreateDirectDebitCredentialMutation": {
+      "OSSPersistId": "2923859017637298",
+      "fragmentNameHash": 3468380597,
+      "legacyPersistId": null,
+      "queryTextHash": "75eade6e34ab568a99902bae940244cc",
+      "usecase": null
+    },
+    "IGPayoutOnboardingPhoneValidation": {
+      "OSSPersistId": "2572633439513745",
+      "fragmentNameHash": 708592640,
+      "legacyPersistId": null,
+      "queryTextHash": "08b1c70644d55d4c8f74e337d7900adb",
+      "usecase": null
+    },
+    "IGPayoutOnboardingTINValidationQuery": {
+      "OSSPersistId": "2768302236620037",
+      "fragmentNameHash": 1850071041,
+      "legacyPersistId": null,
+      "queryTextHash": "607e67ab2d346e5cc5a8ee2b6caa9071",
+      "usecase": null
+    },
+    "IGRiskAppealCaseQuery": {
+      "OSSPersistId": "2982314008458140",
+      "fragmentNameHash": 3962602,
+      "legacyPersistId": null,
+      "queryTextHash": "3263c5b96ba26f1a7fd2546697e9c8ad",
+      "usecase": null
+    },
+    "IgFbPayPaymentMethodsQuery": {
+      "OSSPersistId": "2806754569405248",
+      "fragmentNameHash": 2123300858,
+      "legacyPersistId": null,
+      "queryTextHash": "e41548743a1247ae308b129bd1f55942",
+      "usecase": null
+    },
+    "IgPaymentsDonationsEligibilityQuery": {
+      "OSSPersistId": "2476027279143426",
+      "fragmentNameHash": 2639510792,
+      "legacyPersistId": null,
+      "queryTextHash": "182390feb09b4d3537890ef98254d558",
+      "usecase": null
+    },
+    "IgPaymentsSettingsInfoQuery": {
+      "OSSPersistId": "3039426202776147",
+      "fragmentNameHash": 2589365802,
+      "legacyPersistId": null,
+      "queryTextHash": "2efb5e513c2b058412fb51aa5a7e9bf0",
+      "usecase": null
+    },
+    "RMMIGDirectQuery": {
+      "OSSPersistId": "2446227058823849",
+      "fragmentNameHash": 2588298905,
+      "legacyPersistId": null,
+      "queryTextHash": "10a2a063b1070a9f0b778c7510fb888b",
+      "usecase": null
+    },
+    "RMMShareIGDirectSendMutation": {
+      "OSSPersistId": "1974474719322903",
+      "fragmentNameHash": 2823052404,
+      "legacyPersistId": null,
+      "queryTextHash": "6aa3d48cd0ae0505dc2b77eb3134fb28",
+      "usecase": null
+    }
+  },
+  "version": 1
+}
