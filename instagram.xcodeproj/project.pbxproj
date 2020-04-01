@@ -38,7 +38,7 @@
 		2151BF632433722A00E709CC /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF622433722A00E709CC /* fishhook.h */; };
 		2151BF652433722A00E709CC /* instagramDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151BF642433722A00E709CC /* instagramDylib.h */; };
 		2151BF672433722A00E709CC /* instagramDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF662433722A00E709CC /* instagramDylib.m */; };
-		2151BF7324337E7E00E709CC /* IGUFIButtonBarViewHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */; };
+		2151BF7324337E7E00E709CC /* IGFeedPhotoViewHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2151BF7224337E7E00E709CC /* IGFeedPhotoViewHook.m */; };
 		63D0A83FEA455135D83E1838 /* Pods_instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9819892571157ABF68DBED10 /* Pods_instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,7 +106,7 @@
 		2151BF642433722A00E709CC /* instagramDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = instagramDylib.h; sourceTree = "<group>"; };
 		2151BF662433722A00E709CC /* instagramDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagramDylib.m; sourceTree = "<group>"; };
 		2151BF70243373E500E709CC /* instagram.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = instagram.ipa; sourceTree = SOURCE_ROOT; };
-		2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGUFIButtonBarViewHook.m; sourceTree = "<group>"; };
+		2151BF7224337E7E00E709CC /* IGFeedPhotoViewHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGFeedPhotoViewHook.m; sourceTree = "<group>"; };
 		2151BF7824338EB800E709CC /* InstagramHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramHeader.h; sourceTree = "<group>"; };
 		2B2150AAA6B15B2E34CFB714 /* Pods-instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram.debug.xcconfig"; path = "Target Support Files/Pods-instagram/Pods-instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		7F409825CE0C0A3D5E0B51E1 /* Pods_instagramDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -303,7 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				2151BF7824338EB800E709CC /* InstagramHeader.h */,
-				2151BF7224337E7E00E709CC /* IGUFIButtonBarViewHook.m */,
+				2151BF7224337E7E00E709CC /* IGFeedPhotoViewHook.m */,
 			);
 			path = Hook;
 			sourceTree = "<group>";
@@ -544,7 +544,7 @@
 				2151BF452433722A00E709CC /* a1a2-selectortramps-x86_64.s in Sources */,
 				2151BF4F2433722A00E709CC /* OCMethodTrace.m in Sources */,
 				2151BF342433722A00E709CC /* MDConfigManager.m in Sources */,
-				2151BF7324337E7E00E709CC /* IGUFIButtonBarViewHook.m in Sources */,
+				2151BF7324337E7E00E709CC /* IGFeedPhotoViewHook.m in Sources */,
 				2151BF612433722A00E709CC /* fishhook.c in Sources */,
 				2151BF5E2433722A00E709CC /* AntiAntiDebug.m in Sources */,
 				2151BF532433722A00E709CC /* OCSelectorTrampolines.mm in Sources */,
